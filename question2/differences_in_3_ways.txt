@@ -1,0 +1,27 @@
+Advantages of using recursive implementation:
+simple to understand and implement
+easy to express the recurrence relation
+
+Disadvantages of using recursive implementation:
+It is highly inefficient, as it recalculates the same subproblems multiple times, leading to a high time complexity of O(3^n)
+It will cause the stack overflow if n becomes large
+
+
+
+Advantages of using memoization:
+More efficient than the recursive implementation, as it avoids recalculating the same subproblems multiple times
+Reduce the time complexity to O(n)
+
+Disadvantages of using memoization:
+requires additional memory to store the memoization table.
+the maximum value of n is limited by the size of the memoization table
+
+
+Advantages of using tabulation implementation:
+More efficient than the recursive and memoization approach, as it avoids recalculating the same subproblems multiple times
+Reduce the time complexity to O(n)
+No stack overflow problem
+
+Disadvantages of using tabulation implementation:
+It requires additional memory to store the array f.
+It's not as intuitive as the recursive approach for expressing the recurrence relation.
